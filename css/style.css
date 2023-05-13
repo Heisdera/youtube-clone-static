@@ -111,6 +111,11 @@ h4 {
 /* NAVBAR */
 #menu-nav {
   width: 1349px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  opacity: 0.98;
+  z-index: 1;
 }
 
 .menu-wrap {
@@ -260,7 +265,7 @@ aside #main-nav {
 #main-nav {
   width: 230px;
   position: sticky;
-  top: 0px;
+  top: 56px;
   height: 1600px;
 }
 
